@@ -6,7 +6,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           MathUtils.Multiply(5, 3);
+           MathUtils.Sum(4, 5);
         }
     }
 }
